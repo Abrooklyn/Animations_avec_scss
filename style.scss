@@ -1,0 +1,21 @@
+
+
+.paragraphe{
+    transition-property: color, width, height;
+    transition-duration: 3s; /* La transition durera trois secondes. */
+    /* Je stylise le paragraphe. */
+    width: 400px;
+    height: 200px;
+    color: #FFFFFF;
+    background-color: #a5a5a5;
+    border: 2px solid #000000;
+    margin: auto;
+    text-align: center;
+}
+
+/* Style lors du passage de la souris */
+.paragraphe p:hover{
+   width: 300px;
+   height: 300px;
+   color: #000000;
+}
